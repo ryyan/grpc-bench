@@ -3,8 +3,7 @@ import logging
 
 import grpc
 
-import hello_pb2
-import hello_pb2_grpc
+from proto import hello_pb2, hello_pb2_grpc
 
 
 class Greeter(hello_pb2_grpc.GreeterServicer):
